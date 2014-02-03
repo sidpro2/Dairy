@@ -36,31 +36,34 @@
             android:id="@+id/fullscreen_content_controls"
             style="?buttonBarStyle"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="bottom|center_horizontal"
+            android:layout_height="458dp"
             android:background="@color/black_overlay"
-            android:orientation="horizontal"
+            android:orientation="vertical"
             tools:ignore="UselessParent" >
 
-            <Button
-                android:id="@+id/dummy_button"
-                style="?buttonBarButtonStyle"
-                android:layout_width="0dp"
+            <EditText
+                android:id="@+id/editText2"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="@string/dummy_button" />
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="@string/Name" />
+
+            <EditText
+                android:id="@+id/editText1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="none"
+                android:text="@string/eventName" />
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Name" />
+
         </LinearLayout>
-
-        <EditText
-            android:id="@+id/editText1"
-            android:layout_width="166dp"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="none"
-            android:text="@string/eventName" >
-
-            <requestFocus />
-        </EditText>
 
     </FrameLayout>
 
