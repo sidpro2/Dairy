@@ -105,7 +105,7 @@ public class DiaryOpen extends Activity {
 			public void onClick(View view) {
 				if (TOGGLE_ON_CLICK) {
 					mSystemUiHider.toggle();
-					mSystemUiHider.toggle();
+					
 				} else {
 					mSystemUiHider.show();
 				}
