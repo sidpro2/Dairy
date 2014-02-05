@@ -44,7 +44,7 @@ public abstract class SystemUiHider {
 	 * hide will toggle low profile mode.
 	 */
 	public static final int FLAG_FULLSCREEN = 0x2;
-//
+
 	/**
 	 * When this flag is set, {@link #show()} and {@link #hide()} will toggle
 	 * the visibility of the navigation bar, if it's present on the device and
