@@ -151,7 +151,7 @@ public class DiaryOpen extends Activity {
 			mSystemUiHider.hide();
 		}
 	};
-
+//HHHHHHH
 	/**
 	 * Schedules a call to hide() in [delay] milliseconds, canceling any
 	 * previously scheduled calls.
